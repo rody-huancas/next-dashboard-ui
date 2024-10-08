@@ -1,4 +1,4 @@
-# School Management Dashboard
+# School Management Dashboard - NextJS
 
 ## Getting Started
 
