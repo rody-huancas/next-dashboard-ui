@@ -66,24 +66,24 @@ const menuItems = [
         href: "/list/results",
         visible: ["admin", "teacher", "student", "parent"],
       },
-      {
-        icon: "/attendance.png",
-        label: "Asistencia",
-        href: "/list/attendance",
-        visible: ["admin", "teacher", "student", "parent"],
-      },
+      // {
+      //   icon: "/attendance.png",
+      //   label: "Asistencia",
+      //   href: "/list/attendance",
+      //   visible: ["admin", "teacher", "student", "parent"],
+      // },
       {
         icon: "/calendar.png",
         label: "Eventos",
         href: "/list/events",
         visible: ["admin", "teacher", "student", "parent"],
       },
-      {
-        icon: "/message.png",
-        label: "Mensajes",
-        href: "/list/messages",
-        visible: ["admin", "teacher", "student", "parent"],
-      },
+      // {
+      //   icon: "/message.png",
+      //   label: "Mensajes",
+      //   href: "/list/messages",
+      //   visible: ["admin", "teacher", "student", "parent"],
+      // },
       {
         icon: "/announcement.png",
         label: "Anuncios",
