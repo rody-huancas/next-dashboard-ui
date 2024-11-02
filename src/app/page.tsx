@@ -1,7 +1,16 @@
-const Homepage = () => {
-  return (
-    <div className=''>Homepage</div>
-  )
-}
+"use client";
 
-export default Homepage
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+const Homepage = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/admin");
+  }, [router]);
+
+  return null;
+};
+
+export default Homepage;
